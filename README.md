@@ -9,7 +9,7 @@ either one. Now, nested inlines are available in an easy-to-install package.
 
 ## Installation
 
-`pip install -e git+git://github.com/Soaa-/django-nested-inlines.git`
+`pip install -e git+git://github.com/Soaa-/django-nested-inlines.git#egg=django-nested-inlines`
 
 ## Usage
 
