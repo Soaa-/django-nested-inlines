@@ -9,6 +9,8 @@ either one. Now, nested inlines are available in an easy-to-install package.
 
 ## Installation
 
+`pip install -e git+git://github.com/Soaa-/django-nested-inlines.git`
+
 ## Usage
 
 `nested_inlines.admin` contains three `ModelAdmin` subclasses to enable
@@ -52,4 +54,4 @@ patches and packaged them nicely for ease of use. Credit goes to:
 - Gargamel for providing the base patch on the Django ticket.
 - Stefan Klug for providing a fork with the patch applied, and for bugfixes.
 
-See [Stefan Klug's repository](https://github.com/stefanklug/django/tree/nested-inline-support-1.5.x)
+See [Stefan Klug's repository](https://github.com/stefanklug/django/tree/nested-inline-support-1.5.x).
