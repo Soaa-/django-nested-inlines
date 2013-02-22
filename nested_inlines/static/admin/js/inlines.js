@@ -230,6 +230,8 @@
 			
 			//get the options that were used to create the source formset
 			var options = $(this).data('django_formset');
+			//clone, so that we don't modify the old one
+			options = $.extend({}, options);
 			options.prefix = formset_prefix;
 			
 			var isTabular = template.find('#'+normalized_formset_prefix+'-empty').is('tr');
