@@ -9,7 +9,7 @@ from helpers import AdminErrorList
 
 class NestedModelAdmin(ModelAdmin):
     class Media:
-        css = {'all': 'admin/css/nested.css'}
+        css = {'all': ('admin/css/nested.css',)}
         js = ('admin/js/nested.js',)
         
     def get_form(self, request, obj=None, **kwargs):
