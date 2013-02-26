@@ -7,6 +7,12 @@
 Patches have been submitted, and repositories forked, but no one likes to use
 either one. Now, nested inlines are available in an easy-to-install package.
 
+### Issues
+
+The Javascript portion of this app is currently buggy. The Python portion
+should be solid. Please test and file issues and pull requests to improve
+it!
+
 ## Installation
 
 `pip install -e git+git://github.com/Soaa-/django-nested-inlines.git#egg=django-nested-inlines`
