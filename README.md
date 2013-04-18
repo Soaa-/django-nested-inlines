@@ -15,7 +15,7 @@ it!
 
 ## Installation
 
-`pip install -e git+git://github.com/alexwhittemore/django-nested-inlines.git#egg=django-nested-inlines`
+`pip install -e git+git://github.com/Soaa-/django-nested-inlines.git#egg=django-nested-inlines`
 
 ## Usage
 
