@@ -1,6 +1,12 @@
 from django.contrib.admin.options import (ModelAdmin, InlineModelAdmin,
-    csrf_protect_m, models, transaction, all_valid, force_unicode,
+    csrf_protect_m, models, transaction, all_valid,
     PermissionDenied, unquote, escape, Http404, reverse)
+# Fix to make Django 1.5 compatible, maintain backwards compatibility
+try:
+    from django.contrib.admin.options import force_unicode
+except ImportError:
+    from django.utils.encoding import force_unicode
+
 from django.contrib.admin.helpers import InlineAdminFormSet, AdminForm
 from django.utils.translation import ugettext as _
 
